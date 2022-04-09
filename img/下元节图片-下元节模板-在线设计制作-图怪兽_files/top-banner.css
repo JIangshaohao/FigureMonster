@@ -1,0 +1,121 @@
+.pop {
+    height: 482px;
+    width: 420px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.67);
+    border-radius: 10px;
+    background-color: transparent;
+    background: url(//js.tuguaishou.com/image/recharge/pop-top.png) 0 0 no-repeat, linear-gradient(180deg, #FFF9F9 0%, #F2E7D8 100%);
+}
+.pop-top {
+    height: 140px;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.pop-top p {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.pop-top p span {
+    width: 298px;
+    height: 42px;
+    font-size: 26px;
+    font-family: "PingFangSC-Semibold, PingFang SC";
+    font-weight: 600;
+    color: #FCD398;
+    line-height: 42px;
+    margin-top: 57px;
+    text-align: center;
+}
+.pop-bottom {
+    padding-top: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* width: 420px; */
+    /* height: 371px; */
+}
+.pop-bottom-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pop-bottom-top-content {
+    width: 60px;
+    height: 74px;
+    display: inline-block;
+}
+.pop-bottom-top-content-p {
+    text-align: center;
+    height: 57px;
+    cursor: pointer;
+}
+.pop-bottom-top-content-icon {
+    font-size: 43px !important;
+    color: #D1A464;
+}
+.pop-bottom-top-content-span {
+    width: 60px;
+    height: 21px;
+    font-size: 15px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    line-height: 21px;
+    cursor: pointer;
+    /*禁止元素文本被选取*/
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+}
+
+
+.pop-bottom-bottom {
+    text-align: center;
+    margin-top: 42px;
+}
+.pop-bottom-bottom-btn {
+    width: 216px;
+    height: 54px;
+    background: linear-gradient(139deg, #444444 0%, #1D1D1D 100%);
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 27px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    outline: none;
+}
+.pop-bottom-bottom-span {
+    width: 112px;
+    height: 28px;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #FCD398;
+    line-height: 28px;
+}
+.pop-bottom-bottom-p {
+    width: 140px;
+    height: 20px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #220A00;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.pop-bottom-bottom-div {
+    width: 59px;
+    background: linear-gradient(135deg, #F95A5A 0%, #F02E2E 100%);
+    border-radius: 10px 10px 10px 3px;
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    right: -15px;
+    line-height: 25px;
+    height: 23px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+}

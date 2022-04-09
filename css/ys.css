@@ -1,0 +1,82 @@
+ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	margin-top: -9px;
+	padding-left: 15px;
+}
+
+#b1 {
+	width: 1700px;
+	height: 500px;
+	background-color: #F9546C;
+}
+
+#b2 {
+	width: 1200px;
+	height: 60px;
+	background-color: white;
+	margin: auto;
+	border: black solid 1px;
+	border-radius: 20px 20px 20px 20px;
+	position: relative;
+	top: 200px;
+}
+
+#b3 {
+			}
+
+#b5 {
+	float: right;
+}
+
+#b4 ul li {
+	
+	display: block;
+	position: relative;
+	left: 1590px;
+	top: -520px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+a:hover {color: red;
+	text-decoration: underline;
+
+	
+}
+a img:hover{
+	transform: scale(1.2);
+}
+#c1 {
+	width: 1700px;
+	height: 100px;
+	background: url(../img/all-vip.png);
+	text-align: center;
+
+}#c1 h2{position: relative;top: 30px;}
+
+h2 {
+	font-size: 30px;
+	position: relative;
+	top: ;
+
+	
+	
+}
+
+ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+#c2 a:hover {
+	float: right;
+	
+}
+
+

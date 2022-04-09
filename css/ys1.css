@@ -1,0 +1,201 @@
+li {
+	list-style-type: none;
+}
+
+#a1 {
+
+	width: 2000px;
+	height: 60px;
+	/* border: solid 1px black; */
+}
+
+#p1 {
+	margin-top: -10px;
+}
+
+#a2 {
+	margin-left: 230px;
+	margin-top: -40px;
+}
+
+#a3 {
+	/* border: solid 1px black;
+	width: 290px;
+	height: 40px; */
+	margin-left: 350px;
+	margin-top: -25px;
+	float: left;
+
+}#a4{margin-top: 0px;}
+
+#a4 li {
+	display: inline;
+
+}
+
+#p2 {
+	margin-left: 595px;
+	margin-top: -35px;
+}
+
+#p3 {
+	margin-left: 750px;
+	margin-top: -40px;
+}
+
+#a5 {
+	border: solid 0.5px black;
+	border-radius: 23px;
+	height: 40px;
+	width: 150px;
+	margin-left: 950px;
+	margin-top: -40px;
+	background-color: black;
+color: white;
+}
+
+#a5 li {
+	display: inline;
+	position: relative;
+	top: 10px;
+	left: 40px;
+	
+}
+#a5 a{color: white;}
+#a6 li {color: cyan;
+	display: inline;
+
+}
+#a5:hover{text-decoration: none;
+background-color: red;}
+#a6 {
+	/* border: solid 0.5px black; */
+	height: 30px;
+	width: 1100px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+#a6 li {
+	color:#000000;
+	position: relative;
+	top: -10px;
+	text-align: center;
+	padding: 10px;
+}
+
+#a7 li {
+	padding: 10px;
+	display: inline;
+}
+
+#a7 {
+	/* border: solid 0.5px black; */
+	height: 50px;
+	width: 900px;
+	margin-left: 90px;
+}
+#a9 a{color: lawngreen;}
+#a8 a{color: lawngreen;}
+#a7 a{color: lawngreen;}
+#a8 li {
+	padding: 10px;
+	display: inline;
+}
+
+#a8 {
+	/* border: solid 0.5px black; */
+	height: 50px;
+	width: 950px;
+	margin-left: 90px;
+}
+
+#a9 li {
+	padding: 10px;
+	display: inline;
+}
+
+#a9 {
+	/* border: solid 0.5px black; */
+	height: 50px;
+	width: 900px;
+	margin-left: 90px;
+}
+
+#a10 {
+	/* border: solid 0.5px black; */
+	height: 50px;
+	width: 1000px;
+	margin-left: 90px;
+}
+
+#a10 li {
+	display: inline;
+	padding: 15px;
+}
+
+#span {
+	font-weight: 600;
+	font-size: 2px;
+}
+
+#p5 {
+
+	position: relative;
+	top: 5px;
+}
+
+#a11 li {
+	display: inline;
+	padding: 10px;
+}
+
+#a11 {
+	height: 1000px;
+	width: 1800px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#a6 a {
+	color: orangered;
+	text-decoration: none;
+}
+
+#a12 {
+	height: 300px;
+	width: 1800px;
+	background: linear-gradient(to top, #FFFAE8, white);
+}
+
+#a13 {
+	height: 1300px;
+	width: 1800px;
+	background: linear-gradient(to top,#FFFAE8 , white, #A9FFFF);
+}
+
+#p6,
+#p7 {
+	background-color: #EEEEEE;
+}
+
+#p8 {
+	background-color: pink;}
+	img:hover{
+		transform: scale(1.2);
+	}#a01{position: relative;
+	left: -5px;}#a01 img{
+		
+		transform: none;
+		
+	}
+	#a01 div,ul,ul li{margin: 0;
+		padding: 0;}#a03{position: relative;
+		top: 5px;}

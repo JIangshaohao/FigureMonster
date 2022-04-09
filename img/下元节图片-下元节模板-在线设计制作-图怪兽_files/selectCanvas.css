@@ -1,0 +1,358 @@
+#selectCanvasEditorHugo{
+	position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99;
+    bottom: 0;
+    right: 0;
+}
+#selectCanvasEditorHugo .selectCanvasContent{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 860px;
+	height: 560px;
+	margin-top: -280px;
+	margin-left: -430px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.selectCanvasContent .selectCanvasClose{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.selectCanvasClose .closeLine{
+	width: 26px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	right: -26px;
+	top: 0;
+}
+.selectCanvasClose .closeBtn{
+	background: url(//s.tuguaishou.com/index_img/fk-del.png) no-repeat 0 0;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	right: -60px;
+	top: -16px;
+	cursor: pointer;
+}
+
+.selectCanvasContent .selectCanvasTitle{
+	margin-top: 25px;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #FF787E;
+	font-weight: bold;
+}
+
+.selectCanvasContent .selectCanvasArea{
+	margin-top: 20px;
+	margin-left: 25px;
+	display: inline-block;
+}
+
+.selectCanvasArea .selectCanvasAreaLeft{
+	width: 575px;
+	height: 454px;
+	background: #fafafa;
+	overflow: hidden;
+	float: left;
+}
+.selectCanvasAreaLeft .areaLeftItem{
+	margin: 20px 0 10px 20px;
+	display: inline-block;
+}
+.areaLeftItem .leftTtemTitle{
+	font-size: 16px;
+	color: #888;
+	position: relative;
+}
+.leftTtemTitle .leftItemTitleLine{
+	margin-top: 5px;
+	width: 50px;
+	height: 3px;
+	border-radius: 2px;
+	background: #FF787E;
+}
+.areaLeftItem .canvasItem{
+	display: inline-block;
+	margin-right: 10px;
+	background: #fff;
+	width: 120px;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	margin-bottom:20px;
+}
+.areaLeftItem .canvasItem:hover{
+	box-shadow: 0 2px 5px #FF787E;
+}
+.canvasItem .canvasItemShow{
+	margin: 8px auto 0;
+	background: #eeeeee;
+	width: 104px;
+	border-radius: 4px;
+	position: relative;
+}
+.canvasItemShow .iconfont{
+	font-size: 24px;
+	margin-left: -12px;
+	position: absolute;
+	left: 50%;
+	color: #ccc;
+}
+.canvasItemShow .canvasSize{
+	font-size: 12px;
+	color: #999;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 5px;
+}
+.canvasItem .canvasItemTitle{
+	font-size: 14px;
+	color: #666666;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.canvasItem.sjhb .canvasItemShow{
+	height: 120px;
+}
+.canvasItem.tsst .canvasItemShow{
+	height: 50px;
+}
+.canvasItem.fmxt .canvasItemShow{
+	height: 104px;
+}
+.canvasItem.hbpt .canvasItemShow{
+	height: 60px;
+}
+.canvasItem.zfxpt .canvasItemShow{
+	height: 104px;
+}
+.canvasItem.sbpt .canvasItemShow{
+	height: 128px;
+}
+.canvasItem.pyqfm .canvasItemShow{
+	height: 95px;
+}
+.canvasItem.KINDLE .canvasItemShow{
+	height: 90px;
+}
+.canvasItem.ydddsb .canvasItemShow{
+	height: 90px;
+}
+
+
+.canvasItem.gzhfm .canvasItemShow{
+	height: 60px;
+}
+.canvasItem.gzhfm .iconfont{
+	top: 10px;
+}
+
+.canvasItem.gzhfm .canvasItemShow{
+	height: 60px;
+}
+.canvasItem.gzhfm .iconfont{
+	top: 10px;
+}
+
+.canvasItem.gzhewm .canvasItemShow{
+	height: 104px;
+}
+.canvasItem.gzhewm .iconfont{
+	top: 30px;
+}
+
+.canvasItem.taobaoB .canvasItemShow{
+	height: 38px;
+}
+.canvasItem.taobaoB .iconfont{
+	top: -39px;
+}
+
+.canvasItem.haibao .canvasItemShow{
+	height: 130px;
+}
+.canvasItem.haibao .iconfont{
+	top: 45px;
+}
+
+.canvasItem.wbfm .canvasItemShow{
+	height: 38px;
+}
+.canvasItem.wbfm .iconfont{
+	top: -39px;
+}
+
+.canvasItem.wbjdt .canvasItemShow{
+	height: 50px;
+}
+.canvasItem.wbjdt .iconfont{
+	top: -39px;
+}
+
+.canvasItem.dzyqh .canvasItemShow{
+	height: 128px;
+}
+.canvasItem.dzyqh .iconfont{
+	top: 40px;
+}
+
+.canvasItem.edmfm .canvasItemShow{
+	height: 36px;
+}
+.canvasItem.edmfm .iconfont{
+	top: -39px;
+}
+
+.canvasItem.tbzt .canvasItemShow{
+	height: 106px;
+}
+.canvasItem.tbzt .iconfont{
+	top: 35px;
+}
+
+.canvasItem.jxgg .canvasItemShow{
+	height: 88px;
+}
+.canvasItem.jxgg .iconfont{
+	top: 25px;
+}
+
+.canvasItem.tlgg .canvasItemShow{
+	height: 16px;
+}
+.canvasItem.tlgg .iconfont{
+	top: -48px;
+}
+.canvasItem.tlgg .canvasSize{
+	top: -24px;
+}
+
+.canvasItem.qtgg .canvasItemShow{
+	height: 88px;
+	width: 25px;
+}
+.canvasItem.qtgg .iconfont{
+	top: 24px;
+}
+.canvasItem.qtgg .canvasSize{
+	width: 120px;
+	margin-left: -48px;
+}
+
+
+.selectCanvasArea .selectCanvasAreaRight{
+	margin-left: 31px;
+	float: left;
+	width: 225px;
+}
+
+.selectCanvasAreaRight .rightItemTitle{
+	margin-top: 15px;
+	font-size: 16px;
+	color: #888;
+	position: relative;
+}
+.rightItemTitle .rightItemTitleLine{
+	margin-top: 5px;
+	width: 50px;
+	height: 3px;
+	border-radius: 2px;
+	background: #FF787E;
+}
+
+.selectCanvasAreaRight .inputArea{
+	margin-top: 25px;
+}
+
+.inputArea input{
+	background: #f4f4f4;
+	width: 94px;
+	height: 46px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 16px;
+	color: #999;
+}
+.inputArea input:focus{
+	width: 92px;
+	height: 44px;
+	border: 1px solid #ff9999;
+}
+.inputArea input::placeholder{
+	color: #ccc;
+}
+
+.selectCanvasAreaRight .inputUnitArea{
+	margin-top: 20px;
+}
+.inputUnitArea .inputUnit{
+	width: 206px;
+	height: 44px;
+	border: 1px solid #dbd9d9;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #999;
+	text-align: center;
+	line-height: 44px;
+	position: relative;
+	cursor: pointer;
+}
+.selectCanvasAreaRight .inputTip.inputTip-mm{
+	display:none;
+}
+.inputUnitArea i{
+	position: absolute;
+	right: 10px;
+	top: 2px;
+}
+.inputUnitArea .inputUnitPop{
+	position: absolute;
+	top: 44px;
+	border:1px solid #dbd9d9;
+	border-radius: 4px;
+	width: 100%;
+	background: #fff;
+	display: none;
+}
+.inputUnitPop .popItem{
+	height: 42px;
+	line-height: 42px;
+}
+.inputUnitPop .popItem:hover{
+	background: #f4f4f4;
+}
+
+.selectCanvasAreaRight .inputTip{
+	font-size: 12px;
+	color: #999;
+	margin-top: 20px;
+}
+
+.selectCanvasAreaRight .createBtn{
+	margin-top: 160px;
+	width: 180px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	margin-left: 14px;
+	cursor: pointer;
+	background: #FF787E;
+}
